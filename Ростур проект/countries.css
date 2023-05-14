@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    html{
+        background: rgb(214,94,247);
+        background: radial-gradient(circle, rgba(214,94,247,1) 0%, rgba(100,38,140,1) 100%);
+        height: 100%;
+}
+
+.header{
+    display:flex;
+    width: 100%;
+    height: 70px;
+    background: rgb(0,126,245);
+    background: linear-gradient(180deg, rgba(0,126,245,1) 0%, rgba(221,253,255,1) 100%);
+}
+
+.menu{
+    display: flex;
+    margin-left: 360px;
+}
+
+.lich_kab{
+    display: flex;
+    margin-left: 450px;
+}
+
+.l4{
+    height: 60px;
+    margin-top: 5px;
+}
+
+.ava{
+    margin-top: 5px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.name{
+    text-align: center;
+}
+
+.menu-name{
+    font-size: 60px;
+    margin-top: 1px;
+}
+
+#menu-name1{
+    color: white;
+}
+
+#menu-name2{
+    color: darkblue;
+}
+
+#menu-name3{
+    color: red;
+}
+
+.menu-text{
+    margin-right: 50px;
+    font-size: 30px;
+    margin-top: 15px;
+    height: 100%;
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.enter{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.main{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.kartinki{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+.footer{
+    background: rgb(0,126,245);
+    background: linear-gradient(0deg, rgba(0,126,245,1) 0%, rgba(221,253,255,1) 100%);
+    /*position: absolute;
+    left: 0;
+    bottom: 0;*/
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+}
+
+.none{
+    height: 23px;
+}
+
+.footer-text{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.boxes{
+    margin-top: 70px;
+    margin-left: 60px;
+    display: flex;
+}
+
+.pict{
+    height: 300px;
+    border-radius: 30px;
+    border: 2px dashed black;
+}
+
+.textpole{
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid black;
+    border-radius: 40px;
+    text-shadow: -2px 1px 10px black;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cost{
+    color: gold;
+}
+
+h1{
+    text-shadow: 2px 1px 3px black;
+    transition: 1s;
+    color: gold;
+}
+
+button{
+    position: relative;
+    border: none;
+    outline: none;
+    color: white;
+    background: #111;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.vhod{
+    height: 30px;
+    width: 100px;
+}
+
+button:before {
+    position: absolute;
+    content: '';
+    top: -2px;
+    left: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% + 4px);
+    border-radius: 5px;
+    z-index: -1;
+    opacity: 0;
+    filter: blur(5px);
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 400%;
+    transition: opacity .3s ease-in-out;
+    animation: animate 20s linear infinite;
+  }
+  
+  button:hover:before {
+    opacity: 1;
+  }
+  
+  button:hover:active {
+    background: none;
+  }
+  
+  button:hover:active:before {
+    filter: blur(2px);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+.menu-text:hover{
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(187, 0, 255),
+      0 0 82px rgb(187, 0, 255),
+      0 0 92px rgb(187, 0, 255),
+      0 0 102px rgb(187, 0, 255),
+      0 0 151px rgb(187, 0, 255);
+}
+
+h1:hover{
+    color: #fff;
+    text-shadow:
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(255, 255, 0),
+      0 0 82px rgb(255, 255, 0),
+      0 0 92px rgb(255, 255, 0),
+      0 0 102px rgb(255, 255, 0),
+      0 0 151px rgb(255, 255, 0);
+}

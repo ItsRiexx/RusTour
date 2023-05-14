@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chatbot/chatbot.css">
+    <script src="chatbot/fp2.js"></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="chatbot/chatbot.js"></script>
+    <script src="script.js" defer></script>
+    <title>РосТур - Главная</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" target="_blank"><img class="ava"src="emblem.png" alt=""></a>
+        <div class="menu-name" id="menu-name1">РО</div>
+        <div class="menu-name" id="menu-name2">СТ</div>
+        <div class="menu-name" id="menu-name3">УР</div>
+        <div class="menu">
+            <div class="menu-text"><a href="countries.html" target="_blank">Страны</a></div>
+            <div class="menu-text"><a href="aviacompanies.html" target="_blank">Авиакомпании</a></div>
+            <div class="menu-text"><a href="lifehacks.html" target="_blank">Лайфхаки</a></div>
+            <div class="lich_kab">
+                <img class="l4"src="lichkab.png" alt="">
+                <div class="enter"><button class="vhod" onclick="myFunction()">Войти</button>
+
+                    <script>
+                    function myFunction() {
+                      alert("Данная функция пока не реализована.");
+                    }
+                    </script></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-part">
+        <p class="main">
+            Добро пожаловать на сайт туристического агенства РосТур.
+        </p>
+        <div class="kartinki">
+            <img class="kartinkis"src="index/kitay.png" alt="">
+            <img class="kartinkis"src="index/tunis.png" alt="">
+            <img class="kartinkis"src="index/turcia.png" alt="">
+        </div>
+        <p class="main">
+            Здесь представлена информация о возможностях путешествий в условиях санкций.
+        </p>
+    </div>
+
+    <div class="footer">
+        <div class="footer-text">
+            © RusTour Org. Наши контакты: rustour.org@gmail.com 
+        </div>
+        <div class="chatbot__btn">
+            <div class="chatbot__tooltip d-none">Есть вопрос?</div>
+          </div>
+    </div>
+</body>
+</html>
